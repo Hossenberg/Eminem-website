@@ -1,0 +1,166 @@
+body {
+    background: #111111;
+}
+
+.navbar {
+    background: #ee1c25;
+}
+
+.logo {
+    height: 35px;
+    width: 35px;
+    transform: translateY(-50%);
+    left: 49%;
+    position: absolute;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    background-color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+.carousel-caption {
+    text-align: left;
+    margin-left: -15rem;
+    color: gray;
+}
+
+.item-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card {
+    background: #111111;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px;
+    height: 5px;
+    padding: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    background-color: #f00
+}
+
+.card-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #686868;
+    font-weight: 600;
+}
+
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.footer {
+    background: #ee1c25;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.arrow {
+    color: black;
+}
+
+.modal-header {
+    background-color: #ee1c25;
+}
+
+.modal .modal-body {
+    background-image: url('./img/modal_magic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.modal-dialog {
+    height: 90%;
+}
+
+.modal-content {
+    height: 55%;
+}
+
+.title {
+    border-style: solid;
+    border: 0px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 65%;
+    color: #ac191f;
+    background-color: black;
+    letter-spacing: 15px;
+}
+
+.form-control {
+    width: 50%;
+    background: transparent;
+    border: solid 2px black;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text {
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.modal-footer {
+    background-image: url('./img/modal_magic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
